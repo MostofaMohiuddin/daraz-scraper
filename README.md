@@ -4,7 +4,7 @@
 
 ## Features
 
-- Scrape product data from Daraz based on a keyword search.
+- Scrape product data from Daraz using their api based on a keyword search.
 - Retrieves detailed product information like name, price, discount, rating, review count, and seller info.
 - Handles pagination and rate-limiting with random delays between requests to avoid overloading the server.
 - Saves the scraped data into a CSV file.
@@ -74,5 +74,5 @@ You can adjust the following parameters in the code:
 
 The project relies on the following dependencies, managed via Poetry:
 
-- `requests`: To send HTTP requests and fetch data from the Daraz website.
+- `requests`: To send HTTP requests and fetch data from the Daraz api.
 - `pydantic`: For data validation and transformation.
